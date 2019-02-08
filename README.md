@@ -44,14 +44,35 @@ I created this repo to help myself master the concepts of Javascript. I am takin
 
 ## 1. Call Stack
 
+A call stack (aka execution stack, program stack, run-time stack, or "the stack" ) is the list of functions a code-interpreter scheduled to run. When an interpreter runs a function, any subfunctions of that function are pushed/added into the queue. Once the subfunction runs, it is then popped/removed from the queue. If a subfunction calls another function, it is added to the stack further up. The order that these functions are ran is "Last In, First Out", meaning the higher up a function is on the stack, the sooner its going to be ran. If the stack takes up more room than the memory allocated for it, a "stack overflow" error is thrown
+**Rough Draft**
 
+*sources:*
+* [Call Stack - *MDN*](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
+* [Call Stack - *Wikipedia*](https://en.wikipedia.org/wiki/Call_stack)
+* [The JS Call Stack Explained in 9 minutes - *Youtube* by Colt Steele](https://www.youtube.com/watch?v=W8AeMrVtFLY)
 
  **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 2. Primitive Types
 
+A primitive is data that is not an object and has no methods. These values are immutable/ cannot be altered. Note: Methods that are ran on primitives (ex. String.toUpperCase()) return a new primitive, while leaving the original primitive value alone.
 
+The six data types that are primitives:
+  * Boolean: *true/false*
+  * Null: *the **intentional** absence of any object value*
+  * Undefined: *a value automatically assigned to variables with no value. Differs from null as null is a value*
+  * Number: *0-9*
+  * String: *characters used to represent text*
+  * Symbol: *tokens that serve as unique IDs*
+
+*sources*
+* [JavaScript data types and data structures - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values)
+* [Methods of Primitives](https://javascript.info/primitives-methods)
+* [Symbols in Ecmascript 6](http://2ality.com/2014/12/es6-symbols.html)
+
+**Rough Draft**
 
  **[⬆ Back to Top](#table-of-contents)**
 ---
