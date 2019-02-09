@@ -79,13 +79,52 @@ The six data types that are primitives:
 
 ## 3. Value Types and Reference Types
 
+Value types: All primitives
+Reference types: Objects, arrays and functions
 
+A variable can store either a value/primitive or a reference. When you manipulate a variable holding a primitive, you change the stored value of the variable. When you manipulate an object, the variable that stores the object is accessed by reference
+
+Example:
+```
+var a = 5;
+var b = a;
+console.log(a); // returns 5
+console.log(b); // returns 5
+
+a += 5;
+console.log(a) // returns 10
+console.log(b) // returns 5
+
+b += 5;
+console.log(a) // returns 10
+console.log(b) // returns 10
+
+
+var objectA = { value: 5 }
+var objectB = objectA;
+console.log(objectA.value) // returns 5
+console.log(objectB.value) // returns 5
+
+objectA.value += 5;
+console.log(objectA.value) // returns 10
+console.log(objectB.value) // returns 10
+
+objectB.value += 5;
+console.log(objectA.value) // returns 15
+console.log(objectB.value) // returns 15
+
+```
+
+*sources*
+[Understand Value and Reference Types in JavaScript - Zsolt Nagy](https://www.zsoltnagy.eu/understand-value-and-reference-types-in-javascript/)
+[JavaScript Primitive vs. Reference Values](http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/)
 
  **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 4. Implicit, Explicit, Nominal, Structuring and Duck Typing
 
+Implicit coercion is JavaScript deciding on its own
 
 
  **[⬆ Back to Top](#table-of-contents)**
@@ -93,7 +132,47 @@ The six data types that are primitives:
 
 ## 5. == vs === vs typeof
 
+== uses implicit coercion to decide if two values are the same. The two pieces of data do not have to be the same type
+ex.
+```
+3 == "3" // returns true
 
+null == undefined // returns true
+```
+
+=== decides if two pieces of data are both the same value and same type
+ex.
+```
+3 === "3" // returns false
+3 === 3 // returns true
+
+null === undefined // returns false
+```
+
+the typeof operator returns a string indicating the type of its operand
+ex.
+```
+typeof 5 // returns "number"
+typeof "5" // returns "string"
+
+typeof {} // returns "object"
+typeof [] // returns "object"
+
+typeof undefined // returns "undefined"
+typeof null // returns "object"
+```
+
+Note the behavior above, as some may find it unexpected. The return value when the operand is an array is "object". Arrays are special, pre-defined objects whose keys in its key-value pairs are an index starting from 0. The array prototype (Array) has a series of methods used to perform traversal and mutation methods. One of these methods is .isArray(), which does a better job than typeof when determining if an operand is an array.
+ex.
+```
+typeof [] // returns "object"
+Array.isArray([]) // returns true
+```
+
+*sources*
+[typeof - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+[Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+[Array.isArray() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 
  **[⬆ Back to Top](#table-of-contents)**
 ---
