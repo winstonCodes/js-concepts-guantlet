@@ -52,7 +52,7 @@ A call stack (aka execution stack, program stack, run-time stack, or "the stack"
 * [Call Stack - *Wikipedia*](https://en.wikipedia.org/wiki/Call_stack)
 * [The JS Call Stack Explained in 9 minutes - *Youtube* by Colt Steele](https://www.youtube.com/watch?v=W8AeMrVtFLY)
 
- **[⬆ Back to Top](#table-of-contents)**
+###### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 2. Primitive Types
@@ -74,7 +74,7 @@ The six data types that are primitives:
 
 **Rough Draft**
 
-#### **[⬆ Back to Top](#table-of-contents)**
+###### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 3. Value Types and Reference Types
@@ -127,7 +127,7 @@ console.log(objectB.value) // returns 15
 Implicit coercion is JavaScript deciding on its own
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 5. == vs === vs typeof
@@ -174,201 +174,201 @@ Array.isArray([]) // returns true
 * [Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [Array.isArray() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 
-##### **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 6. Function Scope, Block Scope and Lexical Scope
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 7. Expression vs Statement
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 8. IIFE, Modules and Namespaces
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 9. Message Queue and Event Loop
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 10. setTimeout, setInterval and requestAnimationFrame
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 11. JavaScript Engines
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 12. Bitwise Operators, Type Arrays and Array Buffers
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 13. DOM and Layout Trees
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 14. Factories and Classes
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 15. this, call, apply and bind
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 16. new, Constructor, instanceof and Instances
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 17. Prototype Inheritance and Prototype Chain
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 18. Object.create and Object.assign
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 19. map, reduce, filter
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 20. Pure Functions, Side Effects and State Mutation
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 21. Closures
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 22. High Order Functions
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 23. Recursion
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 24. Collections and Generators
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 25. Promises
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 26. async/await
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 27. Data Structures
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 28. Expensive Operation and Big O Notation
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 29. Algorithms
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 30. Inheritance, Polymorphism and Code Reuse
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 31. Design Patterns
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 32. Partial Applications, Currying, Compose and Pipe
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 33. Clean Code
 
 
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
