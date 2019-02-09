@@ -67,14 +67,14 @@ The six data types that are primitives:
   * String: *characters used to represent text*
   * Symbol: *tokens that serve as unique IDs*
 
-*sources*
+*sources:*
 * [JavaScript data types and data structures - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Primitive_values)
 * [Methods of Primitives](https://javascript.info/primitives-methods)
 * [Symbols in Ecmascript 6](http://2ality.com/2014/12/es6-symbols.html)
 
 **Rough Draft**
 
- **[⬆ Back to Top](#table-of-contents)**
+#### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 3. Value Types and Reference Types
@@ -115,11 +115,11 @@ console.log(objectB.value) // returns 15
 
 ```
 
-*sources*
-[Understand Value and Reference Types in JavaScript - Zsolt Nagy](https://www.zsoltnagy.eu/understand-value-and-reference-types-in-javascript/)
-[JavaScript Primitive vs. Reference Values](http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/)
+*sources:*
+* [Understand Value and Reference Types in JavaScript - Zsolt Nagy](https://www.zsoltnagy.eu/understand-value-and-reference-types-in-javascript/)
+* [JavaScript Primitive vs. Reference Values](http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/)
 
- **[⬆ Back to Top](#table-of-contents)**
+### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 4. Implicit, Explicit, Nominal, Structuring and Duck Typing
@@ -169,12 +169,12 @@ typeof [] // returns "object"
 Array.isArray([]) // returns true
 ```
 
-*sources*
-[typeof - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
-[Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-[Array.isArray() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
+*sources:*
+* [typeof - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+* [Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [Array.isArray() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 
- **[⬆ Back to Top](#table-of-contents)**
+##### **[⬆ Back to Top](#table-of-contents)**
 ---
 
 ## 6. Function Scope, Block Scope and Lexical Scope
